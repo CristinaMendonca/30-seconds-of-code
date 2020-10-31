@@ -4,7 +4,10 @@
 
 ## Tools
 
-Before you begin contributing, you should install the integration-tools globally on your machine:
+Before you begin contributing, you should:
+
+1. Install Node.js® (https://nodejs.org).
+2. Install the 30 seconds of code integration tools globally by opening your system's terminal/command line and running the command:
 
 ```sh
 npm install -g @30-seconds/integration-tools
@@ -29,13 +32,14 @@ Breaking any of these rules will result in your pull request being closed. Pleas
 
 ## Snippet creation
 
-After installing the integration tools, you can run the following command:
+After installing the integration tools, use your system's terminal/command line to go to your local copy of the 30 seconds repository (e.g., "C:\Users\User\Documents\GitHub\30-seconds-of-code\") and run the command:
 
 ```sh
 create-new-snippet <my-snippet-name>
 ```
 
-Replace `<my-snippet-name>` with the name of the snippet you are adding. 
+Replace `<my-snippet-name>` with the name of the snippet you are adding. You can then find the new snippet markdown file with the name you chose in the snippets folder, inside your local copy of the 30 seconds repository. Use any text editor you like to edit the snippet markdown file.
+
 
 ## Snippet guidelines
 
